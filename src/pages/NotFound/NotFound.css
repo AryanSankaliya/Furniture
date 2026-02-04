@@ -1,0 +1,362 @@
+/* NotFoundPage.css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.not-found-container {
+  font-family: 'Poppins', sans-serif;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #faf8f5 0%, #f5f2ed 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  padding: 2rem;
+}
+
+.not-found-content {
+  text-align: center;
+  z-index: 2;
+  position: relative;
+  max-width: 600px;
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.8s ease-out;
+}
+
+.not-found-content.fade-in {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.error-number-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+.error-number {
+  font-size: 10rem;
+  font-weight: 700;
+  color: #B88E2F;
+  line-height: 1;
+  text-shadow: 4px 4px 0px rgba(184, 142, 47, 0.1);
+  animation: numberPulse 2s ease-in-out infinite alternate;
+}
+
+@keyframes numberPulse {
+  0% {
+    transform: scale(1);
+    text-shadow: 4px 4px 0px rgba(184, 142, 47, 0.1);
+  }
+  100% {
+    transform: scale(1.05);
+    text-shadow: 6px 6px 0px rgba(184, 142, 47, 0.15);
+  }
+}
+
+.error-heading {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 1.5rem;
+  letter-spacing: -0.5px;
+}
+
+.error-description {
+  font-size: 1.1rem;
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 3rem;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 400;
+}
+
+.home-button {
+  background: #B88E2F;
+  color: white;
+  border: none;
+  padding: 1.2rem 3rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(184, 142, 47, 0.3);
+}
+
+.home-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(184, 142, 47, 0.4);
+}
+
+.home-button:active {
+  transform: translateY(-1px);
+}
+
+.button-hover-effect {
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent);
+  transition: left 0.6s;
+}
+
+.home-button:hover .button-hover-effect {
+  left: 100%;
+}
+
+/* Central Sofa Icon */
+.furniture-icon {
+  margin: 0 2rem;
+  position: relative;
+}
+
+.sofa-icon {
+  width: 80px;
+  height: 40px;
+  animation: sofaBounce 3s ease-in-out infinite;
+}
+
+@keyframes sofaBounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.sofa-cushion {
+  width: 100%;
+  height: 25px;
+  background: #B88E2F;
+  border-radius: 8px 8px 0 0;
+  position: relative;
+}
+
+.sofa-cushion::before {
+  content: '';
+  position: absolute;
+  width: 90%;
+  height: 4px;
+  background: rgba(255,255,255,0.3);
+  top: 8px;
+  left: 5%;
+  border-radius: 2px;
+}
+
+.sofa-base {
+  width: 110%;
+  height: 15px;
+  background: #a57d28;
+  margin-left: -5%;
+  border-radius: 4px;
+}
+
+/* Floating Furniture Elements */
+.floating-furniture {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.floating-item {
+  position: absolute;
+  opacity: 0.08;
+}
+
+.chair-float {
+  top: 20%;
+  left: 10%;
+  animation: float 6s ease-in-out infinite;
+}
+
+.table-float {
+  top: 70%;
+  right: 15%;
+  animation: float 8s ease-in-out infinite 1s;
+}
+
+.lamp-float {
+  bottom: 25%;
+  left: 15%;
+  animation: float 7s ease-in-out infinite 0.5s;
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0) rotate(0deg);
+  }
+  33% {
+    transform: translateY(-20px) rotate(2deg);
+  }
+  66% {
+    transform: translateY(10px) rotate(-1deg);
+  }
+}
+
+/* Chair Design */
+.chair-back {
+  width: 30px;
+  height: 25px;
+  background: #B88E2F;
+  border-radius: 4px 4px 0 0;
+}
+
+.chair-seat {
+  width: 35px;
+  height: 8px;
+  background: #a57d28;
+  margin-top: -2px;
+}
+
+.chair-legs {
+  width: 35px;
+  height: 15px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: -2px;
+}
+
+.chair-legs::before,
+.chair-legs::after {
+  content: '';
+  width: 4px;
+  height: 100%;
+  background: #8a6a20;
+}
+
+/* Table Design */
+.table-top {
+  width: 50px;
+  height: 8px;
+  background: #B88E2F;
+  border-radius: 2px;
+}
+
+.table-leg {
+  width: 6px;
+  height: 30px;
+  background: #a57d28;
+  margin: 0 auto;
+}
+
+/* Lamp Design */
+.lamp-base {
+  width: 12px;
+  height: 4px;
+  background: #B88E2F;
+  margin: 0 auto;
+  border-radius: 2px;
+}
+
+.lamp-stem {
+  width: 3px;
+  height: 25px;
+  background: #a57d28;
+  margin: 0 auto;
+}
+
+.lamp-shade {
+  width: 20px;
+  height: 12px;
+  background: #B88E2F;
+  margin: 0 auto;
+  margin-top: -2px;
+  border-radius: 10px 10px 2px 2px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .error-number {
+    font-size: 6rem;
+  }
+  
+  .error-number-container {
+    margin-bottom: 1.5rem;
+  }
+  
+  .sofa-icon {
+    width: 60px;
+    margin: 0 1rem;
+  }
+  
+  .error-heading {
+    font-size: 2rem;
+  }
+  
+  .error-description {
+    font-size: 1rem;
+    margin-bottom: 2.5rem;
+  }
+  
+  .home-button {
+    padding: 1rem 2.5rem;
+    font-size: 1rem;
+  }
+  
+  .floating-item {
+    opacity: 0.05;
+  }
+}
+
+@media (max-width: 480px) {
+  .error-number {
+    font-size: 4rem;
+  }
+  
+  .sofa-icon {
+    width: 40px;
+    margin: 0 0.5rem;
+  }
+  
+  .error-heading {
+    font-size: 1.75rem;
+  }
+  
+  .not-found-container {
+    padding: 1rem;
+  }
+  
+  .error-number-container {
+    flex-direction: column;
+  }
+  
+  .furniture-icon {
+    margin: 1rem 0;
+    transform: rotate(90deg);
+  }
+}
+
+/* Premium touch - subtle grain texture */
+.not-found-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.03'/%3E%3C/svg%3E");
+  pointer-events: none;
+  z-index: 1;
+}

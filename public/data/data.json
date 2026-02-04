@@ -1,0 +1,722 @@
+[
+        {
+            "id": 1,
+            "title": "Luxury Leather Sofa",
+            "name": "Royal Premium Leather Sofa Set",
+            "small_desc": "Premium full-leather sofa with gold-accented frame and plush cushions. Crafted from genuine Italian leather, this sofa offers unmatched comfort and timeless elegance.",
+            "rating": 4.8,
+            "images": [
+                "https://images.pexels.com/photos/276528/pexels-photo-276528.jpeg",
+                "https://images.pexels.com/photos/276583/pexels-photo-276583.jpeg",
+                "https://images.pexels.com/photos/1866149/pexels-photo-1866149.jpeg",
+                "https://images-cdn.ubuy.co.in/6570158f69bf9c48322a9166-genuine-leather-sofa-loveseat-set-2pcs.jpg"
+            ],
+            "price": 89999,
+            "discount": 15,
+            "category": "Sofa"
+        },
+        {
+            "id": 2,
+            "title": "Modern Oak Dining Table",
+            "name": "Elite Oak Wood Dining Table 6-Seater",
+            "small_desc": "Stylish oak wood dining table with minimalist design and matching chairs. Built with premium-grade oak and a smooth matte finish, it combines durability with sophistication.",
+            "rating": 4.5,
+            "images": [
+                "https://www.ikea.com/ext/ingkadam/m/6937bc03bc15b760/original/PH207712.jpg?f=s",
+                "https://onlinehomeimprovements.co.uk/wp-content/uploads/2024/06/Modern-Round-Light-Wooden-Dining-Table-with-Oak-Veneer-Pedestal-Base-M.jpg",
+                "https://images.pexels.com/photos/279619/pexels-photo-279619.jpeg",
+                "https://images.pexels.com/photos/279620/pexels-photo-279620.jpeg"
+            ],
+            "price": 54999,
+            "discount": 10,
+            "category": "Dining Table"
+        },
+        {
+            "id": 3,
+            "title": "Velvet Armchair",
+            "name": "Designer Velvet Lounge Armchair",
+            "small_desc": "Velvet upholstered armchair with wooden frame and luxury finish. The smooth velvet fabric feels rich and soft, while its sturdy base ensures long-lasting comfort.",
+            "rating": 4.7,
+            "images": [
+                "https://m.media-amazon.com/images/I/8127mw-OLvL._AC_UF894,1000_QL80_.jpg",
+                "https://m.media-amazon.com/images/I/81FVBGBK+ZL._AC_UF894,1000_QL80_.jpg",
+                "https://mobileimages.lowes.com/productimages/0a11f7f6-5f06-4aab-b5d3-50c5125a8e89/65977142.jpeg?size=pdhz",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvM2lUuaOasgwq-PMtCqFqJ0OS37spl52hEwkseGoreJ7ypliYck3Puw7hZPzsplUcNWg&usqp=CAU"
+            ],
+            "price": 29999,
+            "discount": 12,
+            "category": "Armchair"
+        },
+        {
+            "id": 4,
+            "title": "King Size Bed Frame",
+            "name": "Supreme King Size Modern Bed Frame",
+            "small_desc": "King-size bed frame with high headboard and premium wooden finishing. Designed for superior comfort and durability, it features a sleek structure that complements any modern bedroom.",
+            "rating": 4.6,
+            "images": [
+                "https://images.pexels.com/photos/271618/pexels-photo-271618.jpeg",
+                "https://www.nismaayadecor.in/cdn/shop/collections/king_size_bed.png?v=1714973415",
+                "https://images-cdn.ubuy.co.in/634f7f6f285440333c0e9b94-allewie-king-size-bed-frame-with-4.jpg",
+                "https://images-cdn.ubuy.co.in/6607dac82aa63f420e438587-haiide-king-size-bed-frame-with-fabric.jpg"
+            ],
+            "price": 79999,
+            "discount": 18,
+            "category": "Bed"
+        },
+        {
+            "id": 5,
+            "title": "Round Glass Coffee Table",
+            "name": "Minimalist Round Glass Top Coffee Table",
+            "small_desc": "Elegant round coffee table with glass top and wooden legs, ideal for modern living rooms. Its transparent design adds lightness to your space, while the durable tempered glass ensures safety and style in equal measure.",
+            "rating": 4.4,
+            "images": [
+                "https://m.media-amazon.com/images/I/91PMO8cd-2L.jpg",
+                "https://images-cdn.ubuy.co.in/66f08ec3b0bf823ab8113a2c-glass-coffee-table-modern-round-coffee.jpg",
+                "https://m.media-amazon.com/images/I/91Zfj8fyX4L.jpg",
+                "https://images-cdn.ubuy.co.in/66c342faae07cf1b394dd80c-black-glass-coffee-table-29-5-inch.jpg"
+            ],
+            "price": 14999,
+            "discount": 8,
+            "category": "Coffee Table"
+        },
+        {
+            "id": 6,
+            "title": "Luxury Recliner",
+            "name": "Comfort Leather Recliner with Footrest",
+            "small_desc": "Premium leather recliner with adjustable back and plush cushioning. Its ergonomic design provides perfect support for relaxation after long hours. Equipped with smooth reclining motion.",
+            "rating": 4.7,
+            "images": [
+                "https://www.duroflexworld.com/cdn/shop/files/1_b34fd737-fa60-4623-aab8-2303597e502d.jpg?v=1746617742",
+                "https://ik.imagekit.io/2xkwa8s1i/img/npl_modified_images/Virelia/WRCLVRLS1FVBL/WRCLVRLS1FVBL_LS_1.jpg?tr=w-3840",
+                "https://cdn.shopify.com/s/files/1/0044/1208/0217/files/SIERRANeo_Blue_01.webp?v=1753183500",
+                "https://i.pinimg.com/736x/ac/bb/9e/acbb9ed03a59e427dd233e09f84ab38a.jpg"
+            ],
+            "price": 34999,
+            "discount": 12,
+            "category": "Recliner"
+        },
+        {
+            "id": 7,
+            "title": "Minimalist Side Table",
+            "name": "Wooden Minimalist Side Table",
+            "small_desc": "Compact side table with clean lines and wooden finish.",
+            "rating": 4.3,
+            "images": [
+                "https://m.media-amazon.com/images/I/610oESybPkS._AC_UF894,1000_QL80_.jpg",
+                "https://www.decorpot.com/images/306393876mark-your-wishlist-done-with-this-trendy-and-small-coffee-table-design.jpeg",
+                "https://m.media-amazon.com/images/I/71OXg8CzTkL._AC_UF894,1000_QL80_.jpg",
+                "https://m.media-amazon.com/images/I/71OXg8CzTkL._AC_UF894,1000_QL80_.jpg"
+            ],
+            "price": 8999,
+            "discount": 5,
+            "category": "Side Table"
+        },
+        {
+            "id": 8,
+            "title": "Luxury TV Unit",
+            "name": "Modern Wooden TV Stand with Storage",
+            "small_desc": "Sleek TV unit with cabinets and premium wooden finish for living room.",
+            "rating": 4.6,
+            "images": [
+                "https://i.pinimg.com/736x/02/20/a8/0220a832af2209966d0876fac98e4a5b.jpg",
+                "https://indiannest.in/cdn/shop/files/rn-image_picker_lib_temp_0d9fd534-6d24-4efa-9db6-fa7750e29831.jpg?v=1710845407",
+                "https://5.imimg.com/data5/SELLER/Default/2023/10/351988246/NF/TA/LD/153595797/luxury-tv-units.jpg",
+                "https://i.pinimg.com/236x/0c/9f/10/0c9f10b0f412444cf50bf71b4ff15a52.jpg"
+            ],
+            "price": 29999,
+            "discount": 10,
+            "category": "TV Unit"
+        },
+        {
+            "id": 9,
+            "title": "Designer Bookshelf",
+            "name": "Premium Wooden Bookshelf",
+            "small_desc": "Open wooden bookshelf with multiple shelves for modern interiors.",
+            "rating": 4.5,
+            "images": [
+                "https://media-wallmantra.com/product/original/wallmantra-joint-designer-bookshelf-in-oak-finish-048A.jpg",
+                "https://images.woodenstreet.de/image/cache/data/book-shelves/cagney-bookshelf-revised/honey/updated/new-imgaes/11-750x650.jpg",
+                "https://assets-news.housing.com/news/wp-content/uploads/2022/12/25040410/image7-27.jpg",
+                "https://assets-news.housing.com/news/wp-content/uploads/2022/12/25040413/image6-30.jpg"
+            ],
+            "price": 19999,
+            "discount": 7,
+            "category": "Bookshelf"
+        },
+        {
+            "id": 10,
+            "title": "Premium Office Chair",
+            "name": "Ergonomic Leather Office Chair",
+            "small_desc": "Comfortable office chair with adjustable height and premium leather finish.",
+            "rating": 4.7,
+            "images": [
+                "https://m.media-amazon.com/images/I/61tNvB6pTCL._AC_UF894,1000_QL80_.jpg ",
+                "https://www.mystore.in/s/62ea2c599d1398fa16dbae0a/6544d54285da174091ebfd8d/81np-vrut-l-_sx522_.jpg",
+                "https://cellbell.in/cdn/shop/files/CellbellCrownLuxuary1.png?v=1752782696",
+                "https://m.media-amazon.com/images/I/71-ZmhEo-aL._AC_UF894,1000_QL80_.jpg"
+            ],
+            "price": 15999,
+            "discount": 10,
+            "category": "Office Chair"
+        },
+        {
+            "id": 11,
+            "title": "Designer Rug",
+            "name": "Premium Geometric Pattern Rug",
+            "small_desc": "High-quality wool rug with modern geometric design for living room.",
+            "rating": 4.6,
+            "images": [
+                "https://m.media-amazon.com/images/I/81NLpf0m9rL._AC_UF894,1000_QL80_.jpg",
+                "https://images-cdn.ubuy.co.in/63a6976dd2ea9926a44e3a43-paco-home-designer-rug-with-contour-cut.jpg",
+                "https://i.etsystatic.com/26689537/r/il/63fe4f/3270734832/il_570xN.3270734832_jbp8.jpg",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSwMPgiAucgaG-KLDyuc2dRdbHG161GQTtLA&s"
+            ],
+            "price": 12999,
+            "discount": 8,
+            "category": "Rug"
+        },
+        {
+            "id": 12,
+            "title": "Luxury Chandelier",
+            "name": "Modern Crystal Chandelier",
+            "small_desc": "Elegant chandelier with crystal finish for premium interiors.",
+            "rating": 4.8,
+            "images": [
+                "https://www.homedecorcompany.in/cdn/shop/files/IMG_1359.jpg?v=1750449117",
+                "https://www.homedecorcompany.in/cdn/shop/files/S330cf7c7367c42d88393b2a07866b4c8j_jpg.webp?v=1750452341",
+                "https://www.whiteteak.com/media/catalog/product/h/l/hl174-10005_c__1.jpg",
+                "https://www.homesake.in/cdn/shop/files/71ZgYqqZnjL._SL1500.jpg?v=1747737810&width=1445"
+            ],
+            "price": 39999,
+            "discount": 12,
+            "category": "Chandelier"
+        },
+        {
+            "id": 13,
+            "title": "Elegant Nightstand",
+            "name": "Luxury Wooden Nightstand",
+            "small_desc": "Premium nightstand with drawers and elegant wooden finishing.",
+            "rating": 4.4,
+            "images": [
+                "https://images-cdn.ubuy.com.sa/662e1eeec837a8330e099e01-home-source-23-elegant-solid-pine-2.jpg",
+                "https://m.media-amazon.com/images/I/81JmxOq3I4L._AC_UF894,1000_QL80_.jpg",
+                "https://m.media-amazon.com/images/I/71wsANl+yKL.jpg",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHQiDCrYWKSWCOlEPMt0gk6s1Nq6WtnvFNJQ&s"
+            ],
+            "price": 8999,
+            "discount": 5,
+            "category": "Nightstand"
+        },
+        {
+            "id": 14,
+            "title": "Modern Lounge Chair",
+            "name": "Premium Velvet Lounge Chair",
+            "small_desc": "Comfortable lounge chair with velvet finish and wooden legs.",
+            "rating": 4.5,
+            "images": [
+                "https://www.dtalemodern.com/pub/media/catalog/product/m/o/moris_miura_7_2855.jpg",
+                "https://media-wallmantra.com/product/original/wallmantra-graphite-elegant-lounge-chair-single-3C03.webp",
+                "https://jordyblue.com/cdn/shop/files/image124561.jpg?v=1746973014",
+                "https://trendyorder.in/wp-content/uploads/2024/10/333.webp"
+            ],
+            "price": 24999,
+            "discount": 10,
+            "category": "Lounge Chair"
+        },
+        {
+            "id": 15,
+            "title": "Minimalist Desk",
+            "name": "Wooden Minimalist Office Desk",
+            "small_desc": "Premium wooden desk with sleek design ideal for modern workspaces.",
+            "rating": 4.6,
+            "images": [
+                "https://i.pinimg.com/736x/c4/d6/4d/c4d64df226a471f12f43a921e11df02e.jpg",
+                "https://i.ytimg.com/vi/OxVXy3FmVAM/sddefault.jpg",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWBPpQ7A8Ui6tKvKeB20edNhjYLGcjQXtkMQ&s",
+                "https://i.redd.it/my-cozy-and-minimalist-desk-setup-what-do-you-think-v0-gb4k7lgehveb1.jpg?width=4000&format=pjpg&auto=webp&s=b7f4221b3e0c4fcf8f89d870736db92691408b22"
+            ],
+            "price": 15999,
+            "discount": 8,
+            "category": "Desk"
+        },
+        {
+            "id": 16,
+            "title": "Elegant Cabinet",
+            "name": "Luxury Wooden Storage Cabinet",
+            "small_desc": "Spacious cabinet with premium finish for living room or office storage.",
+            "rating": 4.5,
+            "images": [
+                "https://www.bocadolobo.com/en/inspiration-and-ideas/wp-content/uploads/2017/08/modern-cabinet-designs-stunning-cabinets.jpg",
+                "https://www.idfdesign.com/images/luxury-classic-display-cabinets/donatello-display-cabinet-with-3-doors-luxury-glass-showcase.jpg",
+                "https://thetimberguy.com/cdn/shop/files/Designer-Solid-Sheesham-wood-sideboard-cabinet-with-metal-frame-legs_800x.jpg?v=1687284580",
+                "https://m.media-amazon.com/images/I/51nBlOABfZL._AC_UF894,1000_QL80_.jpg"
+            ],
+            "price": 19999,
+            "discount": 12,
+            "category": "Cabinet"
+        },
+        {
+            "id": 17,
+            "title": "Luxury Floor Lamp",
+            "name": "Modern Standing Floor Lamp",
+            "small_desc": "Elegant floor lamp with premium design to enhance living room decor.",
+            "rating": 4.4,
+            "images": [
+                "https://whiteteak.com/media/catalog/product/f/l/fl50-10006_thumbnail.jpg",
+                "https://mydesignangel.in/cdn/shop/files/tripod_f439825150nene_amb.webp?v=1711533703&width=1445",
+                "https://img.tatacliq.com/images/i24//658Wx734H/MP000000025741809_658Wx734H_202505080016341.jpeg",
+                "https://lastudio.co.in/wp-content/uploads/2024/11/1-2-2-7.jpg"
+            ],
+            "price": 7999,
+            "discount": 5,
+            "category": "Lamp"
+        },
+        {
+            "id": 18,
+            "title": "Modern Wardrobe",
+            "name": "Premium Sliding Door Wardrobe",
+            "small_desc": "Spacious wardrobe with sleek sliding doors and premium finish.",
+            "rating": 4.6,
+            "images": [
+                "https://i.pinimg.com/736x/4a/cb/74/4acb7429b466c81735f7fc04367e7315.jpg",
+                "https://i.pinimg.com/1200x/76/7e/89/767e89468f57f6ab2735aa0550d39841.jpg",
+                "https://media.landmarkshops.in/cdn-cgi/image/h=750,w=750,q=85,fit=cover/homecentre/1000014689184-1000014689184-702_04-2100.jpg",
+                "https://www.customfurnish.com/blogs/wp-content/uploads/2025/09/23-scaled.webp"
+            ],
+            "price": 59999,
+            "discount": 15,
+            "category": "Wardrobe"
+        },
+        {
+            "id": 19,
+            "title": "Stylish Bar Stool",
+            "name": "Luxury Wooden Bar Stool",
+            "small_desc": "Premium wooden bar stool with modern design and comfortable seat.",
+            "rating": 4.3,
+            "images": [
+                "https://m.media-amazon.com/images/I/71YVtGvMJHL._AC_UF894,1000_QL80_.jpg",
+                "https://cdn.home-designing.com/wp-content/uploads/2017/01/Black-and-white-barrel-bar-stools.jpg",
+                "https://walkeredison.com/cdn/shop/files/OOOD4DMS_ALL_US_LS_02.jpg?v=1723652126",
+                "https://images-cdn.ubuy.co.in/68dfb7b99a7404d9e60514bb-alpha-home-24-bar-stools-set-of-4.jpg"
+            ],
+            "price": 8999,
+            "discount": 5,
+            "category": "Bar Stool"
+        },
+        {
+            "id": 20,
+            "title": "Premium Console Table",
+            "name": "Modern Wooden Console Table",
+            "small_desc": "Elegant console table for hallway or living room with premium finish.",
+            "rating": 4.5,
+            "images": [
+                "https://m.media-amazon.com/images/I/51otJ1MPoKL._AC_UF894,1000_QL80_.jpg",
+                "https://woodworm.in/cdn/shop/files/Woodworm-premium-furniture-metric-console-table-writing-desk-honey-finish-solidwood-and-metal-affordable-buy-online-in-India.jpg?v=1703412427",
+                "https://homesofrajasthan.com/wp-content/uploads/2024/11/218.jpg",
+                "https://m.media-amazon.com/images/I/71+cegILJzL.jpg"
+            ],
+            "price": 12999,
+            "discount": 10,
+            "category": "Console Table"
+        },
+        {
+            "id": 31,
+            "title": "Modular Corner Sofa",
+            "name": "Cloud Nine 5-Piece Modular Sofa",
+            "small_desc": "Deep seating modular sofa with feather-blend cushions and washable linen covers. Highly configurable.",
+            "rating": 4.9,
+            "images": [
+                "https://m.media-amazon.com/images/I/815OgnjknfL._AC_UF894,1000_QL80_.jpg",
+                "https://images-cdn.ubuy.co.in/63d528715f5eff2ef06b5b15-harper-bright-designs-sectional.jpg",
+                "https://m.media-amazon.com/images/I/81wP+TlL3LL._AC_UF894,1000_QL80_.jpg",
+                "https://media.architecturaldigest.com/photos/68b21dd438577676b7616a36/4:3/w_2580,h_1935,c_limit/imgi_1_AD0724_BUSH_10%20copy.jpg"
+            ],
+            "price": 125000,
+            "discount": 15,
+            "category": "Sofa"
+        },
+        {
+            "id": 32,
+            "title": "Extendable Dining Table",
+            "name": "Aura White Lacquer Extendable Dining Table",
+            "small_desc": "High-gloss white lacquer table extending to seat 10, perfect for large gatherings.",
+            "rating": 4.5,
+            "images": [
+                "https://cdn.cloudinary.com/dc5ztdzeo/image/upload/c_fill,g_auto,w_800/dpr_auto/e_sharpen:50/f_webp,q_auto:good/products/SDCCA01/casa-round-natural-hardwood-extension-dining-table-extended%20%282%29.jpg",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxKgoaNUzZ5PNJI-cg43HyXhwnUccQyr4TniAr0p7R0rxhxL9uKwqF68hppJqqx_vDfCE&usqp=CAU",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSreGOHX6QHGse0uFqopJBsWX0zYyG2ZXJKVwH36t_hsdWA1Bs4KI9sWOYvJgoOsJkiukc&usqp=CAU",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGzRw2sXfPItKOhgwp6-oX3hJdRE3F4gHUSPRQYCn7sDDgviVu6_ze6hp-eW-Ols7qFA8&usqp=CAU"
+            ],
+            "price": 68999,
+            "discount": 10,
+            "category": "Dining Table"
+        },
+        {
+            "id": 33,
+            "title": "Faux Fur Armchair",
+            "name": "Nordic Style Faux Fur Occasional Chair",
+            "small_desc": "Cozy, plush faux fur armchair with minimalist metal legs, great for reading nooks.",
+            "rating": 4.7,
+            "images": [
+                "https://m.media-amazon.com/images/I/71uDETa7G6L._AC_UF894,1000_QL80_.jpg",
+                "https://abigailahern.com/cdn/shop/files/rowley-faux-fur-armchair-abigail-ahern-1.jpg?v=1726649033",
+                "https://m.media-amazon.com/images/I/81kaQ+6EdsL._AC_UF894,1000_QL80_.jpg",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJhlrviJFJL2rASbrYryPx8wmRNeLjz7dMfUjgdfXPB4z9L6hMLntmRQ3TtYFytw7CrgA&usqp=CAU"
+            ],
+            "price": 24500,
+            "discount": 12,
+            "category": "Armchair"
+        },
+        {
+            "id": 34,
+            "title": "Platform Storage Bed",
+            "name": "Zenith Queen Platform Bed with Drawers",
+            "small_desc": "Queen size bed with hydraulic storage lift and two foot-end drawers for maximizing space.",
+            "rating": 4.6,
+            "images": [
+                "https://wfc.com.au/cdn/shop/files/Beds_Zeus_47of91_800x.jpg?v=1736572736",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUNyb5UzOu0koBCTQzvICilD_f0MzspdLiffxDl3mtPVV-Hplb1-taLw-J1YZIvDuVev8&usqp=CAU",
+                "https://m.media-amazon.com/images/I/7198SroDu3L._AC_UF894,1000_QL80_.jpg",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZ5EsSIKSl_IrNr36_GCLLa1_zenuJpSraEA&s"
+            ],
+            "price": 52999,
+            "discount": 18,
+            "category": "Bed"
+        },
+        {
+            "id": 35,
+            "title": "Nesting Coffee Tables",
+            "name": "Geometric 2-Piece Nesting Coffee Table Set",
+            "small_desc": "Versatile nesting tables with metal frames and stone tops, ideal for small spaces.",
+            "rating": 4.4,
+            "images": [
+                "https://m.media-amazon.com/images/S/aplus-media-library-service-media/458e14c8-82ae-459f-8548-ccef4153cfcd.__CR0,651,1886,1167_PT0_SX970_V1___.jpg",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDKwr6GaCPiKSEfTzTTD1AAgniSX6dmq9wA2slTEa_DoUeI3o5IadcSYRR6w2DMhp81JM&usqp=CAU",
+                "https://www.decornation.in/wp-content/uploads/2020/02/circular-wooden-2-set-end-table.jpg",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRchexvub9VWGS97gDB-jnstP7_cyDuBNZUDMmjXTY8gToADeKo07IPg16ipxW30v5CYxY&usqp=CAU"
+            ],
+            "price": 19999,
+            "discount": 8,
+            "category": "Coffee Table"
+        },
+        {
+            "id": 36,
+            "title": "Zero Gravity Recliner",
+            "name": "Astral Zero Gravity Leather Recliner",
+            "small_desc": "Advanced zero gravity position for optimal spinal alignment and weight distribution.",
+            "rating": 4.9,
+            "images": [
+                "https://casper.com/cdn/shop/articles/Zero-Gravity-Bed_4f3a656a-3bfb-4054-a39a-881ab4332e1c.jpg?v=1760117369&width=2048",
+                "https://cdn.shopify.com/s/files/1/0698/7251/7367/files/pasted_20image_200-41.jpg",
+                "https://relaxtheback.com/cdn/shop/files/X-Chair-3.0-Zero-Gravity-Powered-Recliner-Andrew-Leblanc-390764_1200x1200.png?v=1752792741",
+                "https://chitaliving.com/cdn/shop/articles/chita_living_Noah_Zero_Gravity_Top_Grain_Leather_Recliner_saddle_4_ee53116b-9e22-42e0-b650-6bb16f0f003e.jpg?v=1742814072&width=1100"
+            ],
+            "price": 55999,
+            "discount": 20,
+            "category": "Recliner"
+        },
+        {
+            "id": 37,
+            "title": "Wireless Charging Side Table",
+            "name": "Smart Side Table with USB and Wireless Charging",
+            "small_desc": "Minimalist wood side table equipped with integrated USB ports and a wireless charging pad.",
+            "rating": 4.7,
+            "images": [
+                "https://rukminim2.flixcart.com/image/300/300/xif0q/side-table/s/s/w/41-56-rosewood-sheesham-13-smart-nightstands-with-wireless-original-imagp9wxfhbxwhxp.jpeg",
+                "https://m.media-amazon.com/images/I/51fqrpGfIML.AC_UF894,1000_QL80.jpg",
+                "https://m.media-amazon.com/images/I/81jw-oTPcbL._AC_UF894,1000_QL80_.jpg",
+                "https://m.media-amazon.com/images/I/61nMFExS4mL.jpg"
+            ],
+            "price": 11999,
+            "discount": 10,
+            "category": "Side Table"
+        },
+        {
+            "id": 38,
+            "title": "Industrial TV Console",
+            "name": "Loft Style Iron and Wood TV Stand",
+            "small_desc": "Robust TV stand combining distressed reclaimed wood and black metal framework.",
+            "rating": 4.5,
+            "images": [
+                "https://m.media-amazon.com/images/I/6136xiNySWL.AC_UF894,1000_QL80.jpg",
+                "https://m.media-amazon.com/images/I/71lFsifIlmL.AC_UF350,350_QL80.jpg",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVSAqysetSKck2ZP-7rjEL-ZDCNdWPUQ8GbA&s",
+                "https://m.media-amazon.com/images/I/6136xiNySWL.AC_UF894,1000_QL80.jpg"
+            ],
+            "price": 27999,
+            "discount": 10,
+            "category": "TV Unit"
+        },
+        {
+            "id": 39,
+            "title": "Open Cube Storage",
+            "name": "Modular Cube Display Shelf Unit",
+            "small_desc": "Multi-cubby unit for versatile storage and display, stackable design.",
+            "rating": 4.3,
+            "images": [
+                "https://m.media-amazon.com/images/I/91kmLn0JYDL.jpg",
+                "https://m.media-amazon.com/images/I/712vfqt2VjL.AC_UF894,1000_QL80.jpg",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvQHzVlHxPyaXsHjbFWl0QzpWInQS3bPv6mg&s",
+                "https://ak1.ostkcdn.com/images/products/is/images/direct/9304f9c5621312c52c9e6a31effab9c0c770b823/LANGRIA-20-Cube-Organizer-Stackable-Plastic-Cube-Storage-Shelves-%28Transparent-Brown%29.jpg?impolicy=medium"
+            ],
+            "price": 11500,
+            "discount": 5,
+            "category": "Bookshelf"
+        },
+        {
+            "id": 40,
+            "title": "Saddle Seat Bar Stool",
+            "name": "Ergonomic Wooden Saddle Bar Stool Set",
+            "small_desc": "Set of two solid wood bar stools with contoured saddle seats for comfort.",
+            "rating": 4.5,
+            "images": [
+                "https://m.media-amazon.com/images/I/81GF26UFdeL.jpg",
+                "https://m.media-amazon.com/images/I/71r9McaZBdL.AC_UF894,1000_QL80.jpg",
+                "https://m.media-amazon.com/images/I/71G4DIYogeL.AC_UF894,1000_QL80.jpg",
+                "https://m.media-amazon.com/images/I/81OB-aL3x7L.AC_UF894,1000_QL80.jpg"
+            ],
+            "price": 17999,
+            "discount": 10,
+            "category": "Bar Stool"
+        },
+        {
+            "id": 41,
+            "title": "Mid-Century Dresser",
+            "name": "Retro 6-Drawer Mid-Century Dresser",
+            "small_desc": "Six-drawer dresser with tapered legs and clean lines, walnut finish.",
+            "rating": 4.7,
+            "images": [
+                "https://images-cdn.ubuy.com.sa/6614c78b698500168110a977-sloane-mid-century-modern-caramel.jpg",
+                "https://images-cdn.ubuy.co.in/66cada46dab200668c5f5177-t4tream-mid-century-modern-6-drawer.jpg",
+                "https://i.pinimg.com/736x/7e/d2/fa/7ed2fa6a80f733f96140509985cef514.jpg",
+                "https://vintagesupplystore.com/cdn/shop/files/photo_5150200894040681326_y.jpg?v=1685751445"
+            ],
+            "price": 39999,
+            "discount": 15,
+            "category": "Dresser"
+        },
+        {
+            "id": 42,
+            "title": "Abstract Area Rug",
+            "name": "Silk Blend Abstract Pattern Area Rug",
+            "small_desc": "Hand-tufted rug with a high-low pile and abstract artistic pattern.",
+            "rating": 4.8,
+            "images": [
+                "https://images.thdstatic.com/productImages/73e317ce-764b-4d59-8368-6ef6a0a3a288/svn/peacock-blue-fuchsia-safavieh-area-rugs-hlw706c-8-e1_600.jpg",
+                "https://m.media-amazon.com/images/I/61wCEmTxlsS._AC_UF894,1000_QL80_.jpg",
+                "https://i5.walmartimages.com/seo/YJ-GWL-Round-Rug-Circle-Carpet-Washable-Non-Slip-Area-Rugs-Boho-Abstract-Printed-Floor-Mat-for-Living-Room-Sofa-Bedroom-Nursery-Decor_77bd9ffa-2cd3-4ba5-a683-f3c295c78671.0ca9b79aebae834ea56268060cc70713.jpeg",
+                "https://i.etsystatic.com/25787770/r/il/13042f/5936334547/il_fullxfull.5936334547_qpgc.jpg"
+            ],
+            "price": 25999,
+            "discount": 12,
+            "category": "Rug"
+        },
+        {
+            "id": 43,
+            "title": "Drum Pendant Light",
+            "name": "Large Linen Drum Pendant Chandelier",
+            "small_desc": "Oversized linen drum shade pendant light, perfect for dining rooms.",
+            "rating": 4.5,
+            "images": [
+                "https://i.etsystatic.com/5364786/r/il/76daa1/4839811246/il_fullxfull.4839811246_5seb.jpg",
+                "https://m.media-amazon.com/images/I/61+oNIeSH4L.jpg",
+                "https://5.imimg.com/data5/ANDROID/Default/2024/2/387965475/RY/SO/GY/70149467/product-jpeg-500x500.jpg",
+                "https://thepurpleturtles.com/cdn/shop/products/Mozukaidrum2_700x700.jpg?v=1755475260"
+            ],
+            "price": 18500,
+            "discount": 10,
+            "category": "Chandelier"
+        },
+        {
+            "id": 44,
+            "title": "Floating Nightstand",
+            "name": "Wall-Mounted Minimalist Nightstand",
+            "small_desc": "Space-saving floating nightstand with a single drawer and cable management hole.",
+            "rating": 4.6,
+            "images": [
+                "https://m.media-amazon.com/images/I/51LB8u0PEbL._AC_UF894,1000_QL80_.jpg",
+                "https://i.etsystatic.com/10905254/r/il/2fab10/3034057200/il_fullxfull.3034057200_actj.jpg",
+                "https://m.media-amazon.com/images/I/71TWP6QpzbL.jpg",
+                "https://images-cdn.ubuy.co.in/68c6ea95dbfbcaa3130108c9-bamboo-floating-nightstand-with-drawer.jpg"
+            ],
+            "price": 9999,
+            "discount": 7,
+            "category": "Nightstand"
+        },
+        {
+            "id": 45,
+            "title": "Papasan Chair",
+            "name": "Cozy Rattan Papasan Lounge Chair",
+            "small_desc": "Deep, rounded lounge chair with a durable rattan frame and plush cushion.",
+            "rating": 4.4,
+            "images": [
+                "https://i5.walmartimages.com/seo/Better-Homes-Gardens-Double-Papasan-Chair-Cream-Boucle_9f8d3454-33bd-4e7a-b3e2-95547931812e.7f7ecd10764c4c20e3c7f44b78987f0c.jpeg",
+                "https://www.irafurniture.com/cdn/shop/files/20250707_2251_PapasanChairSpotlight_remix_01jzjyesfhehy92egpapk1rzy7.jpg?v=1755247323",
+                "https://www.chennaichairs.com/images/thumbs/0009173_vintage-rattan-papasan-chair_550.webp",
+                "https://m.media-amazon.com/images/I/51P0625fxzL._AC_UF894,1000_QL80_.jpg"
+            ],
+            "price": 16999,
+            "discount": 5,
+            "category": "Lounge Chair"
+        },
+        {
+            "id": 46,
+            "title": "L-Shape Executive Desk",
+            "name": "Executive L-Shape Corner Desk with Drawers",
+            "small_desc": "Large L-shaped desk with integrated file drawers and spacious work surface.",
+            "rating": 4.7,
+            "images": [
+                "https://images-cdn.ubuy.co.in/66d8a207cb2bce209b4bd53c-modern-l-shape-executive-desk-brown.jpg",
+                "https://images-cdn.ubuy.co.in/66e22ac7db5ca11b8d7b8155-tribesigns-71-inch-executive-desk-l.jpg",
+                "https://m.media-amazon.com/images/I/81SiPMEvgQL.jpg",
+                "https://luxiwoods.com/cdn/shop/files/WORK_SETUP_019_0001-min.png?v=1747228428"
+            ],
+            "price": 45999,
+            "discount": 15,
+            "category": "Desk"
+        },
+        {
+            "id": 47,
+            "title": "Accent Storage Cabinet",
+            "name": "Geometric Pattern Accent Cabinet",
+            "small_desc": "Unique cabinet with doors featuring a 3D geometric relief pattern and interior shelving.",
+            "rating": 4.6,
+            "images": [
+                "https://m.media-amazon.com/images/I/61WgNnMZd8L._AC_UF894,1000_QL80_.jpg",
+                "https://m.media-amazon.com/images/I/81nZU-RHSmL.jpg",
+                "https://i5.walmartimages.com/seo/White-Accent-Storage-Cabinet-Modern-Entryway-Cabinet-with-4-Doors-and-2-Drawers-for-Living-Room-Kitchen_eaed8bdc-21f9-499a-a992-fcf22b3b5852.341bab0aae553348fc27c23dcacc60a6.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF",
+                "https://m.media-amazon.com/images/I/815ea6oYLtL._AC_UF894,1000_QL80_.jpg"
+            ],
+            "price": 24999,
+            "discount": 10,
+            "category": "Cabinet"
+        },
+        {
+            "id": 48,
+            "title": "Arched Floor Lamp",
+            "name": "Bronze Finish Arched Floor Lamp",
+            "small_desc": "Tall, adjustable arched lamp with a heavy marble base, perfect for illuminating seating areas.",
+            "rating": 4.5,
+            "images": [
+                "https://images-cdn.ubuy.co.in/65730e551204b0755a116635-white-arc-floor-lamp-modern-floor-lamp.jpg",
+                "https://www.ikea.com/in/en/images/products/skaftet-floor-lamp-base-arched-black__0801019_pe768082_s5.jpg",
+                "https://images-cdn.ubuy.co.in/64171e668700a417e90f4088-gold-floor-lamp-arc-floor-lamp-for.jpg",
+                "https://images-cdn.ubuy.co.in/6448ad9e7ff7b771eb7d3eaa-rgbw-modern-arc-floor-lamp-for-bedroom.jpg"
+            ],
+            "price": 9499,
+            "discount": 8,
+            "category": "Lamp"
+        },
+        {
+            "id": 49,
+            "title": "Sliding Mirror Wardrobe",
+            "name": "Full-Length Mirrored Sliding Door Wardrobe",
+            "small_desc": "Modern wardrobe featuring full-height mirrored sliding doors, maximizing space and light.",
+            "rating": 4.7,
+            "images": [
+                "https://m.media-amazon.com/images/I/61Qu8wfFB4L._AA360_AC_QL70_.jpg",
+                "https://www.metrowardrobes.co.uk/assets/uploads/blog/sliding-mirror-door-wardrobe.webp",
+                "https://www.ikea.com/in/en/images/products/pax-mehamn-auli-wardrobe-with-sliding-doors-dark-grey-double-sided-light-green-mirror-glass__1328678_pe944887_s5.jpg",
+                "https://www.ikea.com/in/en/images/products/skytta-pax-walk-in-wardrobe-with-sliding-doors-black-auli-mirror-glass__1306312_pe939675_s5.jpg"
+            ],
+            "price": 72999,
+            "discount": 18,
+            "category": "Wardrobe"
+        },
+        {
+            "id": 50,
+            "title": "Entryway Bench",
+            "name": "Rustic Wood Entryway Storage Bench",
+            "small_desc": "Bench with shoe storage shelves and a comfortable upholstered seat cushion.",
+            "rating": 4.3,
+            "images": [
+                "https://images-cdn.ubuy.co.in/661f022564717b6d21563e41-entryway-bench-farmhouse-indoor-entry.jpg",
+                "https://m.media-amazon.com/images/I/81QMnGSYf0L._AC_UF894,1000_QL80_.jpg",
+                "https://assets.pbimgs.com/pbimgs/ab/images/dp/wcm/202342/0230/heritage-farmhouse-entryway-bench-l.jpg",
+                "https://i.pinimg.com/564x/95/f5/9b/95f59b290fba0360de6ddffcb8c7419e.jpg"
+            ],
+            "price": 14999,
+            "discount": 10,
+            "category": "Bench"
+        },
+        {
+            "id": 51,
+            "title": "Chesterfield Sofa",
+            "name": "Classic Tufted Velvet Chesterfield Sofa",
+            "small_desc": "Deep button-tufted velvet sofa with rolled arms, offering a timeless luxury look.",
+            "rating": 4.8,
+            "images": [
+                "https://i.pinimg.com/236x/72/d3/4a/72d34aa90c4a3b827cf349dcf6845b91.jpg",
+                "https://www.getmycouch.com/cdn/shop/files/Untitleddesign_46.png?v=1703861936",
+                "https://antiquehomedecors.com/wp-content/uploads/2024/01/770091669014672.jpg",
+                "https://images-cdn.ubuy.co.in/65a4ce3ae7f95e7e3b6ac5f8-78-7-chesterfield-sofa-modern-velvet.jpg"
+            ],
+            "price": 99999,
+            "discount": 12,
+            "category": "Sofa"
+        },
+        {
+            "id": 52,
+            "title": "Industrial Dining Chairs",
+            "name": "Set of 4 Vintage Metal Dining Chairs",
+            "small_desc": "Durable metal chairs with wooden seats, designed for industrial or rustic interiors. Stackable.",
+            "rating": 4.5,
+            "images": [
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnmwMuwvv4838lyHqhJHUhPeLdoDUC0gjEvg&s",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnmwMuwvv4838lyHqhJHUhPeLdoDUC0gjEvg&s",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7vNpPVwwWH50iBRimkKjYQaOc_iFc8A0pxA&s",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcPYucxAQeqfUjsAAtOzVXR2oecZJi5Q1F5Q&s"
+            ],
+            "price": 22999,
+            "discount": 15,
+            "category": "Dining Chair"
+        },
+        {
+            "id": 53,
+            "title": "Egg Shaped Chair",
+            "name": "Retro Pod Swivel Egg Chair",
+            "small_desc": "Iconic, comfortable egg-shaped chair with a smooth swivel mechanism and fiberglass shell.",
+            "rating": 4.9,
+            "images": [
+                "https://images.woodenstreet.de/image/data/DEVOKO-SWINGS/white-rattan-and-wicker-egg-shaped-swing-chair/D-1.jpg",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0MEIeVYl9N8hqcfLNvKO6G_oQu96Cbn8rYg&s",
+                "https://image.made-in-china.com/318f0j00baiUvpzMJHco/darwin-kd-swing-chair-mp4.webp",
+                "https://i.pinimg.com/474x/2b/54/b2/2b54b2b8b7c28b5798009db9ef4a8c14.jpg"
+            ],
+            "price": 32999,
+            "discount": 10,
+            "category": "Armchair"
+        },
+        {
+            "id": 54,
+            "title": "Velvet Upholstered Bed",
+            "name": "Monarch Velvet Wingback King Bed",
+            "small_desc": "Tall velvet wingback headboard with diamond tufting, exuding elegance and grandeur.",
+            "rating": 4.8,
+            "images": [
+                "https://furnishiaa.com/cdn/shop/files/Luxurious_Velvet_Upholstered_Bed_With_Golden_Strip_-_Furnishiaa_-_-_-5989735.jpg?v=1732714825&width=1200",
+                "https://m.media-amazon.com/images/I/81D5kzQ1sZL.jpg",
+                "https://m.media-amazon.com/images/I/81lzsVHJK-L.jpg",
+                "https://images-cdn.ubuy.co.in/684315b1da5c246aa60ac0f7-homfa-king-size-54-5-h-velvet.jpg"
+            ],
+            "price": 85000,
+            "discount": 20,
+            "category": "Bed"
+        },
+        {
+            "id": 55,
+            "title": "Trunk Coffee Table",
+            "name": "Vintage Industrial Storage Trunk Coffee Table",
+            "small_desc": "Functional coffee table designed as a large vintage trunk, offering hidden storage space.",
+            "rating": 4.5,
+            "images": [
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKCM_fNzyVlERh8t7_lbfYZv5oQZrTDjLjjQ&s",
+                "https://i5.walmartimages.com/seo/Safavieh-Zoe-Modern-Animal-Print-Storage-Coffee-Table-with-Wine-Rack_d62c9d56-6f28-47a1-b384-18df0bb998f1_4.8cf5144e21e415757c181542bd6f8a44.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZEbo-abtYOdeFiLOq0hr1wTwcVtIgMVOPb8baAPsX9nxKllRCDPISkbeeucJaxgWyA08&usqp=CAU",
+                "https://i.pinimg.com/474x/d5/5b/ae/d55bae28dba0d3d01c93b21a8855c0b3.jpg"
+            ],
+            "price": 21999,
+            "discount": 15,
+            "category": "Coffee Table"
+        }
+    ]

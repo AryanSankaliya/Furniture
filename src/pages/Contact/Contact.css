@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+/* ===== CONTACT PAGE MAIN CONTAINER ===== */
+
+.contact-container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 80px auto;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Heading */
+.contact-container h1 {
+  font-size: 38px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.contact-description {
+  text-align: center;
+  color: #555;
+  font-size: 16px;
+  margin-bottom: 50px;
+  line-height: 1.5;
+}
+
+/* ==== MAIN CONTENT GRID (Similar to Checkout Left/Right) ==== */
+
+.contact-content {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+}
+
+/* LEFT SIDE (CONTACT DETAILS) */
+
+.contact-details {
+  width: 40%;
+  background: #f9f8f6;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.06);
+}
+
+.contact-item {
+  margin-bottom: 30px;
+}
+
+.contact-item h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.contact-item p {
+  font-size: 15px;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* RIGHT SIDE FORM */
+
+.contact-form-container {
+  width: 60%;
+}
+
+.contact-form {
+  background: #f9f8f6;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.06);
+}
+
+.contact-form h3 {
+  font-weight: 600;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+/* INPUT + TEXTAREA */
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  margin-bottom: 6px;
+  font-weight: 500;
+  color: #333;
+}
+
+.form-input,
+.form-textarea {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 12px;
+  font-size: 15px;
+  outline: none;
+  transition: all 0.2s ease;
+  background: #fff;
+}
+
+.form-input:focus,
+.form-textarea:focus {
+  border-color: #b88e2f;
+  box-shadow: 0 0 5px rgba(184,142,47,0.4);
+}
+
+/* BUTTON */
+
+.submit-btn {
+  width: 160px;
+  padding: 12px;
+  border-radius: 8px;
+  background: #b88e2f;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.submit-btn:hover {
+  background: #a17923;
+}
+
+/* ======= RESPONSIVE ======= */
+
+@media (max-width: 900px) {
+  .contact-content {
+    flex-direction: column;
+  }
+
+  .contact-details,
+  .contact-form-container {
+    width: 100%;
+  }
+}

@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.cart-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 80px;
+}
+
+.cart-left {
+    width: 70%;
+}
+
+.cart-header {
+    display: flex;
+    justify-content: space-around;
+    background: #f9f1e7;
+    padding: 15px 30px;
+    font-weight: 600;
+}
+
+.cart-row {
+    display: grid;
+    grid-template-columns: 2fr 1.5fr 1.3fr 0.8fr 0.3fr;
+    align-items: center;
+    margin-top: 30px;
+    padding: 10px 20px;
+}
+
+.product-info {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.product-img {
+    width: 90px;
+    height: 90px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.qty-box {
+    width: 40px;
+    height: 35px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.subtotal {
+    font-weight: 500;
+}
+
+.delete-icon {
+    color: #b88e2f;
+    cursor: pointer;
+}
+
+.cart-right {
+    width: 28%;
+    background: #f9f1e7;
+    padding: 30px;
+    height: 280px;
+    border-radius: 12px;
+}
+
+.cart-right h3 {
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.total-row {
+    display: flex;
+    justify-content: space-between;
+    margin: 12px 0;
+    font-weight: 500;
+}
+
+.grey {
+    color: #9f9f9f;
+}
+
+.total-price {
+    color: #b88e2f;
+    font-weight: 600;
+}
+
+.checkout-btn {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #000;
+    background: transparent;
+    border-radius: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.checkout-btn:hover {
+    color: white;
+    background-color: #b88e2f;
+    border: none;
+}
+
+@media (max-width: 768px) {
+    .cart-container {
+        flex-direction: column;
+        padding: 20px;
+        gap: 30px;
+    }
+
+    .cart-left,
+    .cart-right {
+        width: 100%;
+    }
+
+    .cart-header {
+        display: none;
+    }
+
+    .cart-row {
+        grid-template-columns: 80px 1fr;
+        gap: 15px;
+        align-items: flex-start;
+        position: relative;
+    }
+
+    .product-info {
+        grid-column: 1 / -1;
+        width: 100%;
+        gap: 15px;
+    }
+
+    .product-img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .delete-icon {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        font-size: 1.2rem;
+    }
+
+    .price,
+    .qty-box,
+    .subtotal {
+        grid-column: 2;
+        margin-left: 0;
+    }
+}

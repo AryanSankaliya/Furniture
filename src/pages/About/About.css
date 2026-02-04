@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.about-container {
+  width: 80%;
+  margin: 60px auto;
+  font-family: 'Poppins', sans-serif;
+  color: #2d2d2d;
+}
+
+/* Top section layout */
+.about-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  margin-bottom: 80px;
+}
+
+.about-left h1 {
+  font-size: 48px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.about-left p {
+  font-size: 18px;
+  line-height: 1.7;
+  color: #555;
+}
+
+.about-right img {
+  width: 420px;
+  border-radius: 15px;
+  object-fit: cover;
+}
+
+/* Story Section */
+.about-story {
+  margin-bottom: 60px;
+}
+
+.about-story h2,
+.about-mission h2 {
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.about-story p {
+  width: 90%;
+  font-size: 17px;
+  line-height: 1.8;
+  color: #555;
+}
+
+/* Mission Section */
+.about-mission ul {
+  margin-top: 20px;
+  padding-left: 20px;
+}
+
+.about-mission li {
+  font-size: 18px;
+  margin-bottom: 12px;
+  color: #444;
+}

@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+/* MAIN WRAPPER */
+.checkout-container {
+  width: 80%;
+  margin: 60px auto;
+  display: flex;
+  gap: 50px;
+  align-items: flex-start;
+}
+
+/* ------------------------------ */
+/* LEFT SECTION – BILLING FORM */
+/* ------------------------------ */
+.checkout-left {
+  flex: 1;
+}
+
+.checkout-left .title {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+/* Label */
+.checkout-container label {
+  font-weight: 500;
+  margin-bottom: 6px;
+  display: block;
+}
+
+/* Inputs EXCEPT RADIO */
+.checkout-container input:not([type="radio"]),
+.checkout-container select,
+.checkout-container textarea {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1px solid #e6e6e6;
+  border-radius: 10px;
+  font-size: 15px;
+  background: #fafafa;
+  transition: all 0.3s ease;
+  margin-bottom: 20px;
+}
+
+/* Focus Effect */
+.checkout-container input:not([type="radio"]):focus,
+.checkout-container select:focus,
+.checkout-container textarea:focus {
+  border-color: #b88e2f;
+  background: #fff;
+  box-shadow: 0 0 0 2px rgba(184, 142, 47, 0.25);
+  outline: none;
+}
+
+/* Two Inputs Row */
+.two-fields {
+  display: flex;
+  gap: 20px;
+}
+
+.two-fields>div {
+  width: 100%;
+}
+
+/* ------------------------------ */
+/* RIGHT SECTION – ORDER SUMMARY */
+/* ------------------------------ */
+.checkout-right {
+  flex: 0.8;
+  padding: 25px;
+  border: 1px solid #dcdcdc;
+  border-radius: 12px;
+}
+
+/* Rows */
+.order-head,
+.order-item,
+.order-row,
+.order-total {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.order-head span {
+  font-weight: 600;
+  font-size: 17px;
+}
+
+.order-item span:first-child {
+  font-weight: 500;
+}
+
+.order-row span {
+  font-weight: 500;
+}
+
+.order-total {
+  margin-top: 20px;
+}
+
+.order-total .total-price {
+  font-size: 20px;
+  font-weight: 700;
+  color: #b88e2f;
+}
+
+/* ------------------------------ */
+/* PAYMENT OPTIONS */
+/* ------------------------------ */
+.payment-box {
+  margin-top: 30px;
+  border-top: 1px solid #e5e5e5;
+  padding-top: 20px;
+}
+
+.payment-option {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 500;
+  margin: 10px 0;
+}
+
+.payment-option span {
+  margin-left: 4px;
+  margin-bottom: 4px;
+}
+
+.payment-desc {
+  font-size: 14px;
+  color: #555;
+  padding-left: 25px;
+}
+
+/* Privacy */
+.privacy {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #444;
+  line-height: 20px;
+}
+
+/* Place Order Button */
+.place-order {
+  margin-top: 25px;
+  width: 100%;
+  background: #b88e2f;
+  color: white;
+  padding: 15px 0;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.place-order:hover {
+  background: #996d21;
+}
+
+.error {
+  font-size: 13px;
+  color: red;
+  margin-top: -15px;
+  margin-bottom: 10px;
+}
+
+/* ------------------------------ */
+/* RESPONSIVE */
+/* ------------------------------ */
+@media (max-width: 900px) {
+  .checkout-container {
+    flex-direction: column;
+    width: 90%;
+  }
+
+  .checkout-right {
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .two-fields {
+    flex-direction: column;
+    gap: 0;
+  }
+}
