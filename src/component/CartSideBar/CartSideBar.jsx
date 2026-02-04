@@ -1,12 +1,12 @@
 import React, { useContext, useEffect } from "react";
-import "./CartSidebar.css";
+import "./CartSideBar.css";
 import { CartContext } from "../CartContext/CartProvider";
 import { CiShoppingBasket } from "react-icons/ci";
 import { AiOutlineClose } from "react-icons/ai";
 
 function CartSidebar({ isOpen, onClose }) {
   const { cartItems = [], removeFromCart } = useContext(CartContext);
-  const subtotal = cartItems.reduce((acc, item) => acc + item.price * item.qty , 0);
+  const subtotal = cartItems.reduce((acc, item) => acc + item.price * item.qty, 0);
 
   return (
     <div className="sidebar">
