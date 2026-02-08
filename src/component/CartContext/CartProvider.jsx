@@ -12,7 +12,7 @@ export function CartProvider({ children }) {
     localStorage.setItem("cartItems", JSON.stringify(cartItems));
   }, [cartItems]);
 
-   const [likedItems, setLikedItems] = useState(() => {
+  const [likedItems, setLikedItems] = useState(() => {
     const stored = localStorage.getItem("likedItems");
     return stored ? JSON.parse(stored) : [];
   });
@@ -42,15 +42,25 @@ export function CartProvider({ children }) {
 
   const addToCart = (product, qty = 1) => {
     const existing = cartItems.find((item) => item.id === product.id);
+    const productName = product.title || product.name || "Item";
 
     if (existing) {
+      const newQty = existing.qty + qty;
+      if (newQty > 5) {
+        return { success: false, message: `You can only add up to 5 ${productName}s!` };
+      }
       setCartItems(
         cartItems.map((item) =>
-          item.id === product.id ? { ...item, qty: item.qty + qty } : item
+          item.id === product.id ? { ...item, qty: newQty } : item
         )
       );
+      return { success: true, message: `${productName} quantity updated!` };
     } else {
+      if (qty > 5) {
+        return { success: false, message: `You can only add up to 5 ${productName}s!` };
+      }
       setCartItems([...cartItems, { ...product, qty: qty }]);
+      return { success: true, message: `${productName} added to cart!` };
     }
   };
 
@@ -62,7 +72,7 @@ export function CartProvider({ children }) {
   const clearCart = () => setCartItems([]);
 
   return (
-    <CartContext.Provider value={{ cartItems,likedItems , toggleLike, addToCart, removeFromCart, clearCart, updateQty }}>
+    <CartContext.Provider value={{ cartItems, likedItems, toggleLike, addToCart, removeFromCart, clearCart, updateQty }}>
       {children}
     </CartContext.Provider>
   );

@@ -26,6 +26,7 @@ function ProductGrid({ products = [], showHeading = true, showButton = true, pag
 
     const [showMsg, setShowMsg] = useState(false);
     const [msgText, setMsgText] = useState("");
+    const [msgType, setMsgType] = useState("success");
 
     const { likedItems, toggleLike } = useContext(CartContext)
 
@@ -43,8 +44,15 @@ function ProductGrid({ products = [], showHeading = true, showButton = true, pag
         };
 
 
-        addToCart(cartItemAddtocart);
-        setMsgText(`${cartItemAddtocart.title} added to cart!`);
+        const result = addToCart(cartItemAddtocart);
+
+        if (result && !result.success) {
+            setMsgText(result.message);
+            setMsgType("error");
+        } else {
+            setMsgText(result.message || `${cartItemAddtocart.title} added to cart!`);
+            setMsgType("success");
+        }
         setShowMsg(true);
         setTimeout(() => setShowMsg(false), 2000);
     };
@@ -66,7 +74,7 @@ function ProductGrid({ products = [], showHeading = true, showButton = true, pag
     }
     return (
         <>
-            {showMsg && <Toast className="cart-msg">{msgText}</Toast>}
+            {showMsg && <Toast className={msgType === "error" ? "error-msg" : "cart-msg"}>{msgText}</Toast>}
             {showWishlistMsg && <Toast className="wishlist-msg">{wishlistMsg}</Toast>}
 
             <div className="products" id="product-grid-section">

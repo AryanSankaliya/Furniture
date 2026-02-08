@@ -21,15 +21,23 @@
 
 
 .cart-msg {
-    background-color: #FFF6E5;      
-    color: #B88E2F; 
+    background-color: #FFF6E5;
+    color: #B88E2F;
     bottom: 25px;
 }
 
 .wishlist-msg {
     bottom: 25px;
-    background-color: #ffdee9 !important; 
-    color: #d6336c !important; 
+    background-color: #ffdee9 !important;
+    color: #d6336c !important;
+}
+
+.error-msg {
+    bottom: 25px;
+    background-color: #ffebee !important;
+    color: #c62828 !important;
+    opacity: 1;
+    transform: translateY(0);
 }
 
 .toast {
